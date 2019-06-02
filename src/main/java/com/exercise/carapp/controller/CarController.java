@@ -48,5 +48,4 @@ public class CarController  {
                 .status(HttpStatus.OK)
                 .body(this.carService.getCar(id)));
     }
-
 }
